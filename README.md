@@ -19,5 +19,4 @@ Please implement your Answers with code
 16) What is a function signature, and why is it important?
 17) How can you make a function in Dart asynchronous?
 18) Describe the use of the async, await, and Future keywords in asynchronous functions.
-19) Explain the concept of function closures in Dart.
-20) How do you call a function defined in another Dart file?
+19) How do you call a function defined in another Dart file?
