@@ -1,4 +1,4 @@
-Instruction: open a new project in Vscode called Exam2 and implement the folowing code
+Instruction: open a new project in Vscode called Exam3 and implement the folowing code
 
 1) What is a function in Dart?
 2) How do you declare a function in Dart?
