@@ -1,11 +1,11 @@
 
 /* Name: Nzeamalu David C.    08
 
-Exam_3
-*/
+            Exam_3
 
-//1.What is a function in Dart?
-/*Functions in Dart are powerful tools for performing specific tasks or sets of tasks. Dart, a programming 
+
+1.What is a function in Dart?
+Functions in Dart are powerful tools for performing specific tasks or sets of tasks. Dart, a programming 
 language created by Google, is commonly utilized for developing web, mobile, and server applications. 
 
 The type of Functions are as follows: Named, Anonymous Constructors, Getters and Setters, 
@@ -73,21 +73,21 @@ void main() {
   printMessage("Hi David!");
 }
 
-// 3.What is the purpose of the main() function in Dart?
+/* 3.What is the purpose of the main() function in Dart?
 
-/* When using Dart, the main() function plays a crucial role as the starting point of the program. 
+When using Dart, the main() function plays a crucial role as the starting point of the program. 
 As you launch the application, the Dart runtime immediately begins executing code from this particular function. 
-Essentially, it is the fundamental function */
+Essentially, it is the fundamental function
 
-// To give you a clearer understanding, let's take a look at the simple framework of a Dart program featuring the main() function:
+To give you a clearer understanding, let's take a look at the simple framework of a Dart program featuring the main() function: */
 void main() 
 {
   // Code to start the program
 }
 
-// 4.Explain the difference between a named function and an anonymous function.
+/* 4. Explain the difference between a named function and an anonymous function.
 
-/* In the world of Dart, the distinction between a named function and an anonymous function centers around how they are defined and utilized: 
+In the world of Dart, the distinction between a named function and an anonymous function centers around how they are defined and utilized: 
 Named Function: */
 
 // To create a named function, one must use the syntax 
@@ -95,20 +95,22 @@ Named Function: */
 returnType functionName(parameters) 
 { /* function body */ } 
 
-// These types of functions are assigned a specific name and designed to be reused in various parts of the code. 
-// They can easily be invoked by calling their designated name.
-// An anonymous function, also known as a function literal or closure, is declared using the syntax 
+/* These types of functions are assigned a specific name and designed to be reused in various parts of the code. 
+hey can easily be invoked by calling their designated name.
+An anonymous function, also known as a function literal or closure, is declared using the syntax */
+
 (parameters) 
 { /* function body */ }
 
 /* Unlike regular functions, it does not have a designated name and can be assigned to variables. 
-This flexibility makes it a popular choice for short-lived tasks, as well as for being used as arguments in other functions.*/
-/* To recap, named functions have a designated name and can be invoked by that name, encouraging reuse. 
+This flexibility makes it a popular choice for short-lived tasks, as well as for being used as arguments in other functions.
+To recap, named functions have a designated name and can be invoked by that name, encouraging reuse. 
 In contrast, anonymous functions lack a specific name and are typically utilized in situations where a brief
 function is required */
 
-// 5.What is a return type in Dart functions?
-/* When using Dart functions, the return type determines the kind of value that the function will generate. 
+/* 5.What is a return type in Dart functions?
+
+When using Dart functions, the return type determines the kind of value that the function will generate. 
 It also serves to indicate that a function does not yield a value if it has a void return type. 
 The declaration of the return type precedes the funct */
 
@@ -119,7 +121,7 @@ returnType functionName(parameters)
   // Function body
   // Code to perform the task
 }
-/* 6.How can you pass parameters to a Dart function?
+/* 6. How can you pass parameters to a Dart function?
 In Dart, passing parameters to a function is as simple as enclosing them in parentheses after the function name. 
 Parameters enable you to input values that the function can utilize in executing a designated action. 
 
@@ -141,9 +143,9 @@ void main() {
   greet("Oluoma", 18);
 }
 
- // 7.Describe the difference between positional and named parameters.
+/* 7. Describe the difference between positional and named parameters.
 
-/* In Dart, function parameters can be classified into two main types: positional parameters and named parameters.
+In Dart, function parameters can be classified into two main types: positional parameters and named parameters.
 The distinction lies in how you pass arguments to a function. */
 
 // Positional Parameters:
@@ -155,7 +157,7 @@ They are the most common type of parameters. */
 ReturnType functionName(Type param1, Type param2, ...) 
 { /* function body */ }
 
-//Usage: When calling the function, you pass arguments in the same order as the parameters are declared.
+// Usage: When calling the function, you pass arguments in the same order as the parameters are declared.
 
 void printDetails(String name, int age, double height) {
   print("Name: $name, Age: $age, Height: $height");
