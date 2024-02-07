@@ -1,10 +1,11 @@
 
-Name: Anumba Chinelo M. 07
+/* Name: Nzeamalu David C.    08
 
-Exam_3
+            Exam_3
+
 
 1.What is a function in Dart?
-/*Functions in Dart are powerful tools for performing specific tasks or sets of tasks. Dart, a programming 
+Functions in Dart are powerful tools for performing specific tasks or sets of tasks. Dart, a programming 
 language created by Google, is commonly utilized for developing web, mobile, and server applications. 
 
 The type of Functions are as follows: Named, Anonymous Constructors, Getters and Setters, 
@@ -12,102 +13,104 @@ Top-Level Functions, Function Parameters, Function Expressions.*/
 
 // Named function
 void greet(String name) {
-  print("Good Morning David $name!");
+  print("Good Morning David $name!");
 }
 
 // Anonymous function assigned to a variable
 var add = (int a, int b) {
-  return a + b;
+  return a + b;
 };
 
 // Class with named and unnamed constructors, getter, and setter
 class Rectangle {
-  double _width, _height;
+  double _width, _height;
 
-  // Named constructor
-  Rectangle.named(this._width, this._height);
+  // Named constructor
+  Rectangle.named(this._width, this._height);
 
-  // Unnamed constructor
-  Rectangle() : _width = 0, _height = 0;
+  // Unnamed constructor
+  Rectangle() : _width = 0, _height = 0;
 
-  // Getter
-  double get area => _width * _height;
+  // Getter
+  double get area => _width * _height;
 
-  // Setter
-  set dimensions(List<double> dimensions) {
-    if (dimensions.length == 2) {
-      _width = dimensions[0];
-      _height = dimensions[1];
-    } else {
-      print("Invalid number of dimensions.");
-    }
-  }
+  // Setter
+  set dimensions(List<double> dimensions) {
+    if (dimensions.length == 2) {
+      _width = dimensions[0];
+      _height = dimensions[1];
+    } else {
+      print("Invalid number of dimensions.");
+    }
+  }
 }
 
 void main() {
-  // Calling the named function
-  greet("Nzeamalu");
+  // Calling the named function
+  greet("Nzeamalu");
 
-  // Calling the anonymous function using the variable
-  var result = add(70, 90);
-  print("The sum is: $result");
+  // Calling the anonymous function using the variable
+  var result = add(70, 90);
+  print("The sum is: $result");
 
-  // Using the Rectangle class
-  var rectangle1 = Rectangle.named(8, 20);
-  print("Area of rectangle1: ${rectangle1.area}");
+  // Using the Rectangle class
+  var rectangle1 = Rectangle.named(8, 20);
+  print("Area of rectangle1: ${rectangle1.area}");
 
-  var rectangle2 = Rectangle();
-  rectangle2.dimensions = [5, 15];
-  print("Area of rectangle2: ${rectangle2.area}");
+  var rectangle2 = Rectangle();
+  rectangle2.dimensions = [5, 15];
+  print("Area of rectangle2: ${rectangle2.area}");
 }
 
 2.How do you declare a function in dart?
 In Dart, you can declare a function using the following examples:
 void printMessage(String message) 
 {
-  print(message);
+  print(message);
 }
 void main() {
-  // Calling the named function
-  printMessage("Hi David!");
+  // Calling the named function
+  printMessage("Hi David!");
 }
 
-// 3.What is the purpose of the main() function in Dart?
+/* 3.What is the purpose of the main() function in Dart?
 
-/* When using Dart, the main() function plays a crucial role as the starting point of the program. 
+When using Dart, the main() function plays a crucial role as the starting point of the program. 
 As you launch the application, the Dart runtime immediately begins executing code from this particular function. 
-Essentially, it is the fundamental function */
+Essentially, it is the fundamental function
 
-// To give you a clearer understanding, let's take a look at the simple framework of a Dart program featuring the main() function:
+To give you a clearer understanding, let's take a look at the simple framework of a Dart program featuring the main() function: */
 void main() 
 {
-  // Code to start the program
+  // Code to start the program
 }
 
-// 4.Explain the difference between a named function and an anonymous function.
+/* 4. Explain the difference between a named function and an anonymous function.
 
-/* In the world of Dart, the distinction between a named function and an anonymous function centers around how they are defined and utilized: 
+In the world of Dart, the distinction between a named function and an anonymous function centers around how they are defined and utilized: 
 Named Function: */
 
 // To create a named function, one must use the syntax 
 
 returnType functionName(parameters) 
-{ /* function body */ } . 
+{ /* function body */ } 
 
-// These types of functions are assigned a specific name and designed to be reused in various parts of the code. 
-// They can easily be invoked by calling their designated name.
-// An anonymous function, also known as a function literal or closure, is declared using the syntax 
+/* These types of functions are assigned a specific name and designed to be reused in various parts of the code. 
+hey can easily be invoked by calling their designated name.
+An anonymous function, also known as a function literal or closure, is declared using the syntax */
+
 (parameters) 
-{ /* function body */ }. 
+{ /* function body */ }
 
 /* Unlike regular functions, it does not have a designated name and can be assigned to variables. 
-This flexibility makes it a popular choice for short-lived tasks, as well as for being used as arguments in other functions.*/
-/* To recap, named functions have a designated name and can be invoked by that name, encouraging reuse. 
+This flexibility makes it a popular choice for short-lived tasks, as well as for being used as arguments in other functions.
+To recap, named functions have a designated name and can be invoked by that name, encouraging reuse. 
 In contrast, anonymous functions lack a specific name and are typically utilized in situations where a brief
 function is required */
 
-// 5.What is a return type in Dart functions?
-/* When using Dart functions, the return type determines the kind of value that the function will generate. 
+/* 5.What is a return type in Dart functions?
+
+When using Dart functions, the return type determines the kind of value that the function will generate. 
 It also serves to indicate that a function does not yield a value if it has a void return type. 
 The declaration of the return type precedes the funct */
 
@@ -115,30 +118,34 @@ The declaration of the return type precedes the funct */
 
 returnType functionName(parameters) 
 {
-  // Function body
-  // Code to perform the task
+  // Function body
+  // Code to perform the task
 }
-6.How can you pass parameters to a Dart function?
-In Dart, passing parameters to a function is as simple as enclosing them in parentheses after the function name. Parameters enable you to input values that the function can utilize in executing a designated action. The syntax generally looks like this:
+/* 6. How can you pass parameters to a Dart function?
+In Dart, passing parameters to a function is as simple as enclosing them in parentheses after the function name. 
+Parameters enable you to input values that the function can utilize in executing a designated action. 
+
+The syntax generally looks like this: */
+
 returnType functionName(parameter1Type parameter1, 
 parameter2Type parameter2, ...) 
 {
-  // Function body
-  // Code to perform the task using parameters
+  // Function body
+  // Code to perform the task using parameters
 }
 Example:
 void greet(String name, int age) 
 {
-  print("Good morning, $name! You are $age years old.");
+  print("Good morning, $name! You are $age years old.");
 }
 void main() {
-  greet("David", 25);
-  greet("Oluoma", 18);
+  greet("David", 25);
+  greet("Oluoma", 18);
 }
 
- // 7.Describe the difference between positional and named parameters.
+/* 7. Describe the difference between positional and named parameters.
 
-/* In Dart, function parameters can be classified into two main types: positional parameters and named parameters.
+In Dart, function parameters can be classified into two main types: positional parameters and named parameters.
 The distinction lies in how you pass arguments to a function. */
 
 // Positional Parameters:
@@ -150,14 +157,14 @@ They are the most common type of parameters. */
 ReturnType functionName(Type param1, Type param2, ...) 
 { /* function body */ }
 
-//Usage: When calling the function, you pass arguments in the same order as the parameters are declared.
+// Usage: When calling the function, you pass arguments in the same order as the parameters are declared.
 
 void printDetails(String name, int age, double height) {
-  print("Name: $name, Age: $age, Height: $height");
+  print("Name: $name, Age: $age, Height: $height");
 }
 void main() {
-  // Calling the function with positional arguments
-  printDetails("David", 25, 5.8);
+  // Calling the function with positional arguments
+  printDetails("David", 25, 5.8);
 }
 
 // 8.What is the significance of the arrow (=>) syntax in Dart functions?
@@ -175,14 +182,14 @@ This convenient feature allows you to set a predefined value that will be used i
 // Here is an example to simply use the = syntax.
 void greet({String name = "Guest", int age = 0})
 {
-  print("Hello, $name! You are $age years old.");
+  print("Hello, $name! You are $age years old.");
 }
 void main() 
 {
-  // Calling the function without providing values for parameters
-  greet(); // Output: Hello, Guest! You are 12 years old.
-  // Calling the function with specific values for parameters
-  greet(name: "David", age: 30); 
+  // Calling the function without providing values for parameters
+  greet(); // Output: Hello, Guest! You are 12 years old.
+  // Calling the function with specific values for parameters
+  greet(name: "David", age: 30); 
 }
 
 // 10.Explain the concept of optional parameters in Dart functions.
@@ -193,25 +200,25 @@ Optional parameters fall into two categories: positional optional parameters and
 // Example of Positional Option Parameter:
 void printDetails(String name, [int age = 30, double height = 157.0]) 
 {
-  print("Name: $name, Age: $age, Height: $height");
+  print("Name: $name, Age: $age, Height: $height");
 }
 void main() 
 {
-  // Calling the function with and without optional parameters
-  printDetails("David");          
- printDetails("Elomma", 30);      
- printDetails("Oluoma", 25, 170.0); 
+  // Calling the function with and without optional parameters
+  printDetails("David");          
+ printDetails("Elomma", 30);      
+ printDetails("Oluoma", 25, 170.0); 
 }
 // Example of Named Optional Parameter:
 void printDetails({String? name, int age = 25, double height = 129.0}) {
-  print("Name: $name, Age: $age, Height: $height");
+  print("Name: $name, Age: $age, Height: $height");
 }
 void main() 
 {
-  // Calling the function with and without optional parameters
-  printDetails(name: "David");
-  printDetails(name: "Cynthia", age: 30);
-  printDetails(name: "Onyeka", height: 6.0);
+  // Calling the function with and without optional parameters
+  printDetails(name: "David");
+  printDetails(name: "Cynthia", age: 30);
+  printDetails(name: "Onyeka", height: 6.0);
 }
 
 // 11.What is the purpose of the void keyword in Dart functions?
@@ -220,8 +227,8 @@ In simple terms, a function with a void return type will successfully complete i
 
 // Syntax Example:
 void functionName(parameters) {
-  // Function body
-  // Code to perform the task
+  // Function body
+  // Code to perform the task
 }
 
 // 12.How can you define a function inside another function in Dart? What is this called?
@@ -232,17 +239,17 @@ This is all possible thanks to Dart's support for treating functions as first-cl
 //Here's an example of defining a nested function in Dart:
 void outerFunction() 
 {
-  print("Outer function");
-  void innerFunction() 
-  {
-    print("Inner function");
-  }
-    innerFunction(); // Call the nested function
+  print("Outer function");
+  void innerFunction() 
+  {
+    print("Inner function");
+  }
+    innerFunction(); // Call the nested function
 }
-    void main() 
-  {
-    outerFunction();
-  }
+    void main() 
+  {
+    outerFunction();
+  }
 
 // 13.What is a higher-order function in Dart?
 
@@ -255,11 +262,11 @@ as they can take in one or more functions as inputs and even return a function a
 // These functions accept one or more functions as arguments, allowing you to customize their behavior by passing different functions.
 // Example:
 int operate(int a, int b, int Function(int, int) operation) {
-  return operation(a, b);
+  return operation(a, b);
 }
 void main() {
-  int result = operate(5, 3, (a, b) => a + b);
-  print(result);
+  int result = operate(5, 3, (a, b) => a + b);
+  print(result);
 }
 
 // Functions that return functions:
@@ -268,12 +275,12 @@ void main() {
 
 Function multiplyBy(int factor)
 {
-  return (int number) => number * factor;
+  return (int number) => number * factor;
 }
 void main()
 {
-  final multiplyBy3 = multiplyBy(3);
-  print(multiplyBy3(5)); // Output: 15
+  final multiplyBy3 = multiplyBy(3);
+  print(multiplyBy3(5)); // Output: 15
 }
 
 // 14.Explain the difference between functions and methods in Dart.
@@ -282,9 +289,9 @@ methods operate within a class's framework and have access to its context, while
 
 // Example of method (instance)
 class Calculator {
-  int add(int a, int b) {
-    return a + b;
-  }
+  int add(int a, int b) {
+    return a + b;
+  }
 }
 var calc = Calculator();
 print(calc.add(3, 4)); // Calling the instance method
@@ -292,7 +299,7 @@ print(calc.add(3, 4)); // Calling the instance method
 // Example of function
 int add(int a, int b) 
 {
-  return a + b;
+  return a + b;
 }
 
 // 15.How do you use the return keyword in Dart functions?
@@ -302,13 +309,13 @@ this makes it crutial element in achieving desired results and enhancing the fun
 
 // Here is an example that uses return keyward
 int add(int a, int b) {
-  int sum = a + b;
-  return sum;
+  int sum = a + b;
+  return sum;
 }
 void main() 
 {
-  int result = add(3, 4);
-  print(result); // Output: 7
+  int result = add(3, 4);
+  print(result); // Output: 7
 }
 
 // 16.What is a function signature, and why is it important?
@@ -318,8 +325,8 @@ This vital component plays a crutial role in establishing the function's interfa
 
 // The general syntax of a function signature in Dart is as follows:
 returnType functionName(parameterType1 parameter1, parameterType2 parameter2, ...) {
-  // Function body
-  // Code to perform the task
+  // Function body
+  // Code to perform the task
 }
 /* To sum up, a function signature plays a crucial role in outlining the expectations for both the function and its callers. 
 By providing necessary details about the input, output, and behavior of the function, it helps improve code documentation, readability,
@@ -352,7 +359,7 @@ Functions marked as async can perform asynchronous operations and use the await 
 // Syntax:
 Future<void> myAsyncFunction() async 
 {
-  // Asynchronous operations using 'await'
+  // Asynchronous operations using 'await'
 }
 // b. await Keyword:
 /* The await keyword is used inside an async function to pause the execution of the function until
@@ -363,8 +370,8 @@ the awaited asynchronous operation is complete.*/
 Syntax:
 Future<void> fetchData() async 
 {
-  var result = await someAsyncOperation();
-  // Code after 'await' resumes when 'someAsyncOperation' is complete
+  var result = await someAsyncOperation();
+  // Code after 'await' resumes when 'someAsyncOperation' is complete
 }
 // c. Future Class:
 /* The Future class represents a value or error that will be available at some time in the future.
@@ -373,7 +380,7 @@ The Future class allows you to handle the result of asynchronous operations, inc
 
 // Syntax:
 Future<int> calculateSquare(int number) async {
-  return number * number;
+  return number * number;
 }
 /* The Future class is also used with the async and await keywords to handle asynchronous tasks and compose them in a sequential manner.
 
@@ -389,23 +396,23 @@ Dart uses the import statement for this purpose.*/
 
 // Here's a step-by-step guide:
 
-// i.   Create the Dart file with the function you want to call: Let's say you have a Dart file named functions.dart with the following content:
+// i.   Create the Dart file with the function you want to call: Let's say you have a Dart file named functions.dart with the following content:
 
 // functions.dart
 int add(int a, int b) {
-  return a + b;
+  return a + b;
 }
-// ii.  Import the Dart file in the file where you want to use the function: 
-// iii  In the Dart file where you want to call the add function, use the import statement to include the functions.dart file. 
+// ii.  Import the Dart file in the file where you want to use the function: 
+// iii  In the Dart file where you want to call the add function, use the import statement to include the functions.dart file. 
 
 //For example:
 // main.dart
 import 'functions.dart';
 void main() 
 {
-  // Now you can call the 'add' function from 'functions.dart'
-  int result = add(3, 4);
-  print(result);
+  // Now you can call the 'add' function from 'functions.dart'
+  int result = add(3, 4);
+  print(result);
 }
 
 /* By using the "functions.dart" import statement, Dart is able to incorporate the functions from the corresponding 
@@ -418,4 +425,3 @@ file will be automatically imported and readily accessible as if they were decla
 /* It is important to note that the import statement's paths are relative to the location of the Dart file, so it is imperative 
 to ensure the file structure and paths are accurately specified. In cases where the files are located in different directories, 
 it may be necessary to adjust the import statement accorndingly. */
-
