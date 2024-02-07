@@ -5,7 +5,6 @@ Exam_3
 */
 
 //1.What is a function in Dart?
-
 /*Functions in Dart are powerful tools for performing specific tasks or sets of tasks. Dart, a programming 
 language created by Google, is commonly utilized for developing web, mobile, and server applications. 
 
@@ -94,18 +93,17 @@ Named Function: */
 // To create a named function, one must use the syntax 
 
 returnType functionName(parameters) 
-{ /* function body */ } . 
+{ /* function body */ } 
 
 // These types of functions are assigned a specific name and designed to be reused in various parts of the code. 
 // They can easily be invoked by calling their designated name.
 // An anonymous function, also known as a function literal or closure, is declared using the syntax 
 (parameters) 
-{ /* function body */ }. 
+{ /* function body */ }
 
 /* Unlike regular functions, it does not have a designated name and can be assigned to variables. 
-This flexibility makes it a popular choice for short-lived tasks, as well as for being used as arguments in other functions.
-
-To recap, named functions have a designated name and can be invoked by that name, encouraging reuse. 
+This flexibility makes it a popular choice for short-lived tasks, as well as for being used as arguments in other functions.*/
+/* To recap, named functions have a designated name and can be invoked by that name, encouraging reuse. 
 In contrast, anonymous functions lack a specific name and are typically utilized in situations where a brief
 function is required */
 
@@ -121,12 +119,12 @@ returnType functionName(parameters)
   // Function body
   // Code to perform the task
 }
+/* 6.How can you pass parameters to a Dart function?
+In Dart, passing parameters to a function is as simple as enclosing them in parentheses after the function name. 
+Parameters enable you to input values that the function can utilize in executing a designated action. 
 
-//6.How can you pass parameters to a Dart function?
-
-/* In Dart, passing parameters to a function is as simple as enclosing them in parentheses after the function name.
-Parameters enable you to input values that the function can utilize in executing a designated action.
 The syntax generally looks like this: */
+
 returnType functionName(parameter1Type parameter1, 
 parameter2Type parameter2, ...) 
 {
@@ -396,8 +394,7 @@ Dart uses the import statement for this purpose.*/
 
 // Here's a step-by-step guide:
 
-/* i.   Create the Dart file with the function you want to call: Let's say you have a Dart file named functions.dart 
-with the following content: */
+// i.   Create the Dart file with the function you want to call: Let's say you have a Dart file named functions.dart with the following content:
 
 // functions.dart
 int add(int a, int b) {
